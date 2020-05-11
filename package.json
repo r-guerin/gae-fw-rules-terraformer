@@ -4,8 +4,7 @@
   "license": "MIT",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r esm functions/yaml-transformer.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./main.js",
   "author": "Remi GUERIN",
