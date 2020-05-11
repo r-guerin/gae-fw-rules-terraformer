@@ -1,0 +1,24 @@
+{
+  "name": "gae-fw-rules-terraformer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm functions/yaml-transformer.js"
+  },
+  "bin": "./main.js",
+  "author": "Remi GUERIN",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/r-guerin/gae-fw-rules-terraformer.git"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "glob": "^7.1.6",
+    "prompt": "^1.0.0",
+    "yargs": "^15.3.1"
+  },
+  "description": "This bit of code is used to automatically generate the terraform resources to whitelist all Google internal IPs used to ping our App Engine, allowing us to perform uptime checks.",
+  "devDependencies": {}
+}
