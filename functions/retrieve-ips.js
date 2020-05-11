@@ -6,8 +6,8 @@ export default (sourcePath) => {
 
   try {
     rawdata = readFileSync(sourcePath);
-  } catch (err) {
-    logError('Could not read file', { filePath: sourcePath });
+  } catch (e) {
+    logError(`Error trying to read file ${sourcePath}`);
   }
 
   let sourceIps = JSON.parse(rawdata);

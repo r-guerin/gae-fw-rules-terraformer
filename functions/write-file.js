@@ -9,7 +9,7 @@ export default (ips, firstDependency, startingPriority) => (filePath) => {
   return new Promise((resolve, reject) => {
     appendFile(filePath, content, (err) => {
       if (err) {
-        logError(`Error while trying to write file ${filePath}`);
+        logError(`Error trying to write file ${filePath}`);
         reject(err);
       } else {
         logSuccess(`file ${filePath} updated`);
