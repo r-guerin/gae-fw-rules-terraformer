@@ -7,8 +7,11 @@ export default () => {
   if (!dep || !parseInt(prio) || !source || !target) {
     logError(
       `
-      Invalid parameter - Usage: node yaml-transformer <firstDependencyName> <startingPriority>
-      Example: node yaml-transformer.js allow-rule-russia 8000
+      Invalid parameter - Usage: 
+      gae-fw-rules-terraformer --dep=<firstDependency> --prio=<startingPriority> --source=<sourcePath> --target=<targetPath>
+
+      Example: 
+      gae-fw-rules-terraformer --dep=allow-rule-russia --prio=8000 --source=/Users/developer/dev/files/uptime-source-ips.txt --target=./environments/**/main.tf
       `,
     );
   }
