@@ -1,6 +1,6 @@
 {
   "name": "gae-fw-rules-terraformer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "main.js",
   "scripts": {
