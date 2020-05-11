@@ -1,6 +1,6 @@
 {
   "name": "gae-fw-rules-terraformer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "main.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "bin": "./main.js",
   "author": "Remi GUERIN",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/r-guerin/gae-fw-rules-terraformer.git"
+    "type": "git",
+    "url": "https://github.com/r-guerin/gae-fw-rules-terraformer.git"
   },
   "dependencies": {
     "esm": "^3.2.25",
